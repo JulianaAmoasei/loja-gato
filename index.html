@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>lojinhe</title>
+  <link href="https://fonts.googleapis.com/css?family=Niramit|Pacifico" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="nav-items">
+        <img class="logo-cat" src="assets/cat-logo.png" />
+        <h1 class="store-heading">Loja do Gato</h1>
+        <ul class="links-header">
+          <li class="links-header-item"><a class="anchor" href="#">produtos</a></li>
+          <li class="links-header-item"><a class="anchor" href="#">contato</a></li>
+          <li class="links-header-item"><a class="anchor" href="#">sobre</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="products-list">
+      <div id="products-div" class="products"></div>
+    </section>
+
+    <section id="add-product-section" class="add-product">
+      <h3 class="add-product-title">Incluir novo produto</h3>
+      <form id="form-add-product" class="form-add-product">
+        <input value="" id="product-name" class="product-input-style" type="text" placeholder="nome do produto">
+        <input value="" id="product-price" class="product-input-style" type="number" placeholder="preço do produto">
+        <input value="" id="product-img" class="product-input-style" type="url" name="" placeholder="link com foto do produto">
+        <input id="btn-submit" class="btn-submit-style" type="submit" value="incluir">
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <ul class="links-footer">
+      <li><a class="anchor" href="#">mapa do site</a></li>
+      <li><a class="anchor" href="#">contato</a></li>
+      <li><a class="anchor" href="#">franquias</a></li>
+    </ul>
+  </footer>
+
+  <script type="text/javascript" src="data.json"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
